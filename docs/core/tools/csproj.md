@@ -193,13 +193,13 @@ MSbuild への移行に伴い、*project.json* ファイルから *csproj* フ�
 ### <a name="packageid"></a>PackageId
 結果のパッケージの名前を指定します。 指定しない場合、`pack` 操作の既定では、`AssemblyName` またはディレクトリ名をパッケージ名として使用します。 
 
-### <a name="title"></a>タイトル
+### <a name="title"></a>Title
 人が読みやすいパッケージのタイトル。通常、nuget.org と、Visual Studio のパッケージ マネージャーの UI 画面で使用されます。 指定しない場合、パッケージ ID が代わりに使用されます。
 
-### <a name="authors"></a>作成者
+### <a name="authors"></a>Authors
 nuget.org のプロファイル名と一致するパッケージ作成者をセミコロンで区切った一覧。これらは nuget.org の NuGet ギャラリーに表示され、同じ作成者によるパッケージの相互参照に使用されます。
 
-### <a name="description"></a>説明
+### <a name="description"></a>Description
 UI 画面用のパッケージの長い説明。
 
 ### <a name="copyright"></a>Copyright
